@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+*{
+    scroll-behavior: smooth;
+    transition: 0.5s;
+}
+.navbar-logo{
+    font-size: 26px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    color: white;
+}
+.navbar-logo span{
+    color: red;
+}
+.navbar-logo span:hover{
+    color: rgb(150, 0, 0);
+}
+.navbar{
+    background: #212121;
+}
+.navbar-logo:hover{
+    text-decoration: none;
+    color: rgb(150,150,150);
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    color: rgb(150,150,150);
+}
+.btn-login{
+    width: 100%;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #C2F1DB;
+    border-radius: 50px;
+}
+.btn-login a{
+    text-transform: uppercase;
+    color: white;
+}
+.btn-login:hover{
+    background: #496075;
+    border: transparent;
+    box-shadow: 1px 1px #C2F1DB;
+    margin-top: -0.2px;
+}
+.jumbotron-fluid{
+    background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.5)),url(IMG-20200206-WA0005.jpg);
+    background-size: cover;
+    height: 558px;
+    text-align: center;
+}
+.container h1{
+    margin: auto;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 160px;
+    font-weight: 100;
+    margin-bottom: 25px;
+    text-shadow: 1px 1px 1px black;
+}
+.container h1 span{
+    font-weight: 800;
+}
+.btn-start{
+    width: 250px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #C2F1DB;
+    border-radius: 50px;
+}
+.btn-start a{
+    text-transform: uppercase;
+    color: white;
+}
+.btn-start a:hover{
+    text-decoration: none;
+}
+.btn-start:hover{
+    background: #496075;
+    border: none;
+    box-shadow: 1px 1px #C2F1DB;
+}
+.card{
+    background: transparent;
+    border: none;
+}
+.las{
+    font-size: 64px;
+    text-align: center;
+}
+.card h2{
+    text-align: center;
+}
+p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer{
+    background: #212121;
+    height: 40px;
+    bottom: 0;
+    margin-top: -32px;
+}
+footer p{
+    color: white;
+    margin: auto;
+}
+.features{
+    text-align: center;
+}
+.features .features{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+.font h2{
+    font-family: 'Teko', sans-serif;
+    font-size: 50px;
+}
+.follow{
+    text-align: center;
+}
+.lab{
+    font-size: 32px;
+    text-align: center;
+}
+.btn-twitter{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid;
+}
+.btn-twitter a{
+    color: black;
+}
+.btn-twitter:hover{
+    background: #00ACEE;
+}
+.btn-twitter a:hover{
+    color: white;
+}
+.btn-facebook{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid;
+}
+.btn-facebook a{
+    color: black;
+}
+.btn-facebook:hover{
+    background: #3B5598;
+}
+.btn-facebook a:hover{
+    color: white;
+}
+.btn-instagram{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid;
+}
+.btn-instagram a{
+    color: black;
+}
+.btn-instagram:hover{
+    background: linear-gradient(#C32AA3,#F46F30,#FFDC7D);
+    transition: 0.5s;
+}
+.btn-instagram a:hover{
+    color: white;
+}
+@media (min-width: 992px){
+    .navbar{
+        background: transparent;
+    }
+    .navbar-nav{
+        text-transform: uppercase;
+    }
+    .nav-link{
+        color: white !important;
+        text-shadow: 1px 1px 1px black;
+    }
+    .nav-link:hover::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #C2F1DB;
+        padding-bottom: 6px;
+        transition: 0.5s;
+        margin-bottom: -9px;
+    }
+    .nav-link a:hover{
+        color: rgb(150,150,150) !important;
+    }
+    .btn-login{
+        height: 40px;
+        width: 100px;
+        background: transparent;
+        border: 2px solid #C2F1DB;
+        border-radius: 50px 50px 50px 50px;
+    }
+    .btn-login:hover{
+        background: #496075;
+        border: transparent;
+    }
+    .nav-link:active::after{
+        content: '';
+        display: block;
+        border-bottom: 3px solid #C2F1DB;
+        padding-bottom: 6px;
+        transition: 0.5s;
+        margin-bottom: -9px;
+    }
+    .btn-login a:hover{
+        text-decoration: none;
+    }
+    .jumbotron-fluid{
+        height: 670px;
+        margin-top: -56px;
+    }
+}
