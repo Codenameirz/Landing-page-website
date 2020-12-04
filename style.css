@@ -180,6 +180,42 @@ footer p{
 .btn-instagram a:hover{
     color: white;
 }
+.btn-github{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid;
+}
+.btn-github a{
+    color: black;
+}
+.btn-github:hover{
+    background: black;
+    transition: 0.5s;
+}
+.btn-github a:hover{
+    color: white;
+}
+.btn-telegram{
+    width: 60px;
+    height: 60px;
+    margin: auto;
+    border-radius: 50%;
+    background: transparent;
+    border: 2px solid;
+}
+.btn-telegram a{
+    color: black;
+}
+.btn-telegram:hover{
+    background: #0088CC;
+    transition: 0.5s;
+}
+.btn-telegram a:hover{
+    color: white;
+}
 @media (min-width: 992px){
     .navbar{
         background: transparent;
