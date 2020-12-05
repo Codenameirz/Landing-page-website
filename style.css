@@ -51,7 +51,7 @@
 .jumbotron-fluid{
     background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0.5)),url(IMG-20200206-WA0005.jpg);
     background-size: cover;
-    height: 558px;
+    height: 590px;
     text-align: center;
 }
 .container h1{
@@ -261,7 +261,7 @@ footer p{
         text-decoration: none;
     }
     .jumbotron-fluid{
-        height: 670px;
+        height: 695px;
         margin-top: -56px;
     }
 }
