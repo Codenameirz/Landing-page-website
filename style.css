@@ -1,28 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@800&display=swap');
 
 *{
+    margin: 0;
+    padding: 0;
     scroll-behavior: smooth;
     transition: 0.5s;
 }
 .navbar-logo{
     font-size: 26px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: bold;
+    font-family: 'Nunito', sans-serif;
+    font-weight: 800;
     color: white;
 }
 .navbar-logo span{
     color: red;
-}
-.navbar-logo span:hover{
-    color: rgb(150, 0, 0);
 }
 .navbar{
     background: #212121;
 }
 .navbar-logo:hover{
     text-decoration: none;
-    color: rgb(150,150,150);
+    color: white;
 }
 .nav-link{
     color: white;
@@ -37,15 +37,18 @@
     border: 2px solid #C2F1DB;
     border-radius: 50px;
 }
-.btn-login a{
+a .btn-login{
     text-transform: uppercase;
     color: white;
     text-decoration: none;
 }
+a .btn-login:hover{
+    color: #C2F1DB;
+}
 .btn-login:hover{
     background: #496075;
     border: transparent;
-    box-shadow: 1px 1px #C2F1DB;
+    box-shadow: 0px 2px #C2F1DB;
     margin-top: -0.2px;
 }
 .jumbotron-fluid{
@@ -73,17 +76,18 @@
     border: 2px solid #C2F1DB;
     border-radius: 50px;
 }
-.btn-start a{
+a .btn-start{
     text-transform: uppercase;
     color: white;
 }
-.btn-start a:hover{
+a .btn-start:hover{
     text-decoration: none;
+    color: #C2F1DB;
 }
 .btn-start:hover{
     background: #496075;
     border: none;
-    box-shadow: 1px 1px #C2F1DB;
+    box-shadow: 0px 2px #C2F1DB;
 }
 .card{
     background: transparent;
@@ -216,6 +220,11 @@ footer p{
 .btn-telegram a:hover{
     color: white;
 }
+.card h5{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 10px;
+}
 @media (min-width: 992px){
     .navbar{
         background: transparent;
@@ -235,9 +244,6 @@ footer p{
         transition: 0.5s;
         margin-bottom: -9px;
     }
-    .nav-link a:hover{
-        color: rgb(150,150,150) !important;
-    }
     .btn-login{
         height: 40px;
         width: 100px;
@@ -248,14 +254,6 @@ footer p{
     .btn-login:hover{
         background: #496075;
         border: transparent;
-    }
-    .nav-link:active::after{
-        content: '';
-        display: block;
-        border-bottom: 3px solid #C2F1DB;
-        padding-bottom: 6px;
-        transition: 0.5s;
-        margin-bottom: -9px;
     }
     .btn-login a:hover{
         text-decoration: none;
